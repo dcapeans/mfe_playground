@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CageModule } from './cage/cage.module';
 
 @NgModule({
   declarations: [
@@ -11,10 +10,9 @@ import { CageModule } from './cage/cage.module';
   ],
   imports: [
     BrowserModule,
-    CageModule,
     AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class MfeModule { }
+export class AppModule { }
